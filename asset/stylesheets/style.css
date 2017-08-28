@@ -1,0 +1,95 @@
+body{
+	background-color: rgba(40,40,235,0.4);
+	color: #000;
+}
+header img{
+	display: inline-block;
+	width: 10%;
+	height: 120px;
+}
+header h2{
+	display: inline-block;
+}
+header{
+	background-color: #ccc;
+	text-align: center;
+}
+.collapse ul li a{
+	font-size: 20px;
+}
+.navbar {
+	text-align: center;
+	background-color: #000;
+}
+button{
+	color: #f00;
+}
+.links{
+	text-align: center;
+}
+
+/*
+========================
+Slider
+========================
+*/
+
+.slider {
+	width: 100%;
+	margin: 2em auto;
+	
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 2s linear;
+	border-radius: 2%;
+	display: inline;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+.introduction,.vision{
+	font-size: 15px;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 10px;
+
+}
+.vision{
+	margin-top: 70px;
+}
+.footer_top {
+    float: left;
+    display: inline;
+    width: 100%;
+    background-color: #1e2223;
+    padding: 3px 0px;
+    color: #fff;
+}
+.single_footer_widget ul li a{
+	color: #fff;
+}
+footer{
+	font-size: 20px;
+	text-align: center;
+	background-color: #55d;
+}
+@media all and (max-width: 600px){
+header img{
+	width: 80%;
+}
+}
