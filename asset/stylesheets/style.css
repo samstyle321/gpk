@@ -6,16 +6,24 @@ header img{
 	display: inline-block;
 	width: 10%;
 	height: 120px;
+	
 }
 header h2{
 	display: inline-block;
+	font-weight: 600;
 }
 header{
-	background-color: #ccc;
+	background-color: #eee;
 	text-align: center;
 }
 .collapse ul li a{
-	font-size: 20px;
+	font-size: 25px;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #bbb;
 }
 .navbar {
 	text-align: center;
