@@ -99,5 +99,6 @@ footer{
 @media all and (max-width: 600px){
 header img{
 	width: 80%;
+	height: 160px;
 }
 }
