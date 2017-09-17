@@ -25,6 +25,15 @@ header{
 .navbar-default .navbar-nav > li > a:hover{
 	color: #bbb;
 }
+.nav li{
+	border-right: 1px solid #bbb;
+}
+.dropdown ul {
+	background-color: transparent;
+}
+.dropdown ul li a{
+	color: #fff;
+}
 .navbar {
 	text-align: center;
 	background-color: #000;
@@ -67,6 +76,9 @@ Slider
 
 .slider-wrapper > .slide:first-child {
 	opacity: 1;
+}
+.slider{
+	margin-top: -20px;
 }
 .introduction,.vision{
 	font-size: 15px;
