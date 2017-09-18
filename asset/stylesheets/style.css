@@ -4,17 +4,21 @@ body{
 }
 header img{
 	display: inline-block;
-	width: 10%;
-	height: 120px;
+	width: 9%;
+	height: 90px;
 	
 }
 header h2{
 	display: inline-block;
 	font-weight: 600;
+	color: #fff;
 }
 header{
 	background-color: #eee;
+	background-image: url(../images/bghhh.jpg);
+	background-repeat: no-repeat;
 	text-align: center;
+	width: 100%;
 }
 .collapse ul li a{
 	font-size: 25px;
