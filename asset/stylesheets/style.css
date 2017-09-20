@@ -112,6 +112,13 @@ footer{
 	text-align: center;
 	background-color: #55d;
 }
+.counter,small{
+	display: inline-block;
+	padding: 10px;
+}
+/*.counter{
+	padding-left: 100px;
+}*/
 @media all and (max-width: 600px){
 header img{
 	width: 80%;
