@@ -34,9 +34,24 @@ header{
 	text-align: center;
 	width: 100%;
 }
-.collapse ul li a{
+.navbar-brand a{
+	color: #fff;
+}
+.navbar-brand a:hover{
+	color: #bbb;
+}
+.dropdown-menu > li > a, .navbar-header .navbar-brand, .navbar-default .navbar-nav > li > a {
+    font-size: 1.3em;
+}
+.navbar-header .navbar-brand, .navbar-default .navbar-nav > li > a {
+    letter-spacing: 1.2px;
+    }
+/*.collapse ul li a{
 	font-size: 25px;
 }
+.nav li{
+	border-right: 1px solid #bbb;
+}*/
 .navbar-default .navbar-nav > li > a{
 	color: #fff;
 }
@@ -53,9 +68,7 @@ button{
 .links{
 	text-align: center;
 }
-.nav li{
-	border-right: 1px solid #bbb;
-}
+
 .dropdown ul {
 	background-color: transparent;
 }
