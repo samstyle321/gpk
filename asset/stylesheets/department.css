@@ -68,6 +68,10 @@ button{
 .links{
 	text-align: center;
 }
+.collapsed{
+	color: #fff;
+}
+
 
 .dropdown ul {
 	background-color: transparent;
