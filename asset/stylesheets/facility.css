@@ -1,14 +1,17 @@
+
 .main{
-	  background: -moz-linear-gradient(left, rgba(190,190,190,1) 0%, rgba(190,190,190,1) 18%, rgba(85,190,232,1) 47%, rgba(42,170,190,1) 60%, rgba(100,170,190,1) 89%);
- background: -webkit-linear-gradient(left top, right top, color-stop(0%, rgba(190,190,190,1)), color-stop(18%, rgba(190,190,190,1)), color-stop(47%, rgba(85,190,232,1)), color-stop(60%, rgba(42,170,190,1)), color-stop(89%, rgba(100,170,190,1)));
- background: -webkit-linear-gradient(left, rgba(190,190,190,1) 0%, rgba(190,190,190,1) 18%, rgba(85,190,232,1) 47%, rgba(42,170,190,1) 60%, rgba(100,170,190,1) 89%);
- background: -o-linear-gradient(left, rgba(190,190,190,1) 0%, rgba(190,190,190,1) 18%, rgba(85,190,232,1) 47%, rgba(42,170,190,1) 60%, rgba(100,170,190,1) 89%);
- background: -ms-linear-gradient(left, rgba(190,190,190,1) 0%, rgba(190,190,190,1) 18%, rgba(85,190,232,1) 47%, rgba(42,170,190,1) 60%, rgba(100,170,190,1) 89%);
+background: -webkit-linear-gradient(left, rgb(102, 125, 236) 0%, rgb(215, 217, 234) 18%, rgb(85, 117, 232) 47%, rgb(188, 193, 224) 60%, rgb(124, 146, 228) 89%);
+background: -moz-linear-gradient(left, rgb(102, 125, 236) 0%, rgb(215, 217, 234) 18%, rgb(85, 117, 232) 47%, rgb(188, 193, 224) 60%, rgb(124, 146, 228) 89%);
+background: -o-linear-gradient(left, rgb(102, 125, 236) 0%, rgb(215, 217, 234) 18%, rgb(85, 117, 232) 47%, rgb(188, 193, 224) 60%, rgb(124, 146, 228) 89%);
+background: -ms-linear-gradient(left, rgb(102, 125, 236) 0%, rgb(215, 217, 234) 18%, rgb(85, 117, 232) 47%, rgb(188, 193, 224) 60%, rgb(124, 146, 228) 89%);
+background: linear-gradient(left, rgb(102, 125, 236) 0%, rgb(215, 217, 234) 18%, rgb(85, 117, 232) 47%, rgb(188, 193, 224) 60%, rgb(124, 146, 228) 89%);
 }
-.main{
-	  background: -moz-linear-gradient(to left #7788ee  #8855aa);
- background: -webkit-linear-gradient(to left #7788ee  #8855aa);
- background: -webkit-linear-gradient(to left #7788ee  #8855aa);
- background: -o-linear-gradient(to left #7788ee  #8855aa);
- background: -ms-linear-gradient(to left #7788ee  #8855aa);
+p{
+	font-weight: 500;
+}
+p ul li{
+	font-weight: 500;
+}
+.other{
+	margin-left: 10px;
 }
