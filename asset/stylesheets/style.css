@@ -116,6 +116,10 @@ Slider
 .vision{
 	margin-top: 70px;
 }
+.single_footer_widget > h3 {
+  color: #fff;
+  text-transform: uppercase;
+}
 .footer_top {
     float: left;
     display: inline;
@@ -127,6 +131,7 @@ Slider
 .single_footer_widget ul li a{
 	color: #fff;
 }
+
 footer{
 	font-size: 20px;
 	text-align: center;
