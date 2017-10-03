@@ -198,6 +198,21 @@ p{
 	letter-spacing: 1px;
 
 }
+.admission ul{
+	list-style: none;
+
+}
+.lis ul{
+list-style: none;
+}
+.fees h2{
+     font-family: 'Merriweather', serif;
+}
+.admission{
+	line-height: 22px;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
 
 
 @media all and (max-width: 600px){

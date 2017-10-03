@@ -141,6 +141,13 @@ footer{
 	display: inline-block;
 	padding: 10px;
 }
+.admission ul{
+	list-style: none;
+
+}
+.lis ul{
+list-style: none;
+}
 /*.counter{
 	padding-left: 100px;
 }*/
