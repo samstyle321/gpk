@@ -209,11 +209,14 @@ list-style: none;
      font-family: 'Merriweather', serif;
 }
 .admission{
+	background-color: #fff;
 	line-height: 22px;
 	word-spacing: 1px;
 	letter-spacing: 1px;
 }
-
+.addmis{
+	background-color: #fff;
+}
 
 @media all and (max-width: 600px){
 header img{
