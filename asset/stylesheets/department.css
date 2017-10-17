@@ -74,10 +74,12 @@ button{
 
 
 .dropdown ul {
-	background-color: transparent;
+	background-color: #000;
+	margin-right: -25px;
 }
 .dropdown ul li a{
 	color: #fff;
+	border-bottom: 1px dotted white;
 }
 .imgBannerc{
 	background-image: url(../images/compb.jpg);
@@ -216,6 +218,16 @@ list-style: none;
 }
 .addmis{
 	background-color: #fff;
+}
+/*
+====================
+Achievement
+====================
+*/
+.project,.project td,.project th{
+	text-align: center;
+	border: 1px solid white;
+	border-collapse: collapse;
 }
 
 @media all and (max-width: 600px){

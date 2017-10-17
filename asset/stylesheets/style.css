@@ -50,10 +50,13 @@ header{
 	border-right: 1px solid #bbb;
 }*/
 .dropdown ul {
-	background-color: transparent;
+	background-color: #000;
+	margin-right: -25px;
+	border-radius: 10px;
 }
 .dropdown ul li a{
 	color: #fff;
+	border-bottom: 1px dotted white;
 }
 .navbar {
 	text-align: center;
