@@ -254,6 +254,10 @@ Anti-Ragging
 	margin-left: 30%;
 }
 
+.other{
+	list-style-type: none;
+}
+
 @media all and (max-width: 600px){
 header img{
 	width: 80%;
