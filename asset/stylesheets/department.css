@@ -29,13 +29,14 @@ header h2{
 }
 header{
 	background-color: #eee;
-	background-image: url(../images/bghhh.jpg);
+	/*background-image: url(../images/bghhh.jpg);*/
 	background-repeat: no-repeat;
+	background-color:rgb(13, 192, 220);
 	text-align: center;
 	width: 100%;
 }
 .navbar-brand a{
-	color: #fff;
+	color: #000;
 }
 .navbar-brand a:hover{
 	color: #bbb;
@@ -53,7 +54,7 @@ header{
 	border-right: 1px solid #bbb;
 }*/
 .navbar-default .navbar-nav > li > a{
-	color: #fff;
+	color: #000;
 }
 .navbar-default .navbar-nav > li > a:hover{
 	color: #bbb;
@@ -61,6 +62,7 @@ header{
 .navbar {
 	text-align: center;
 	background-color: #000;
+	background-color: #f1f1f1;
 }
 button{
 	color: #f00;
@@ -77,6 +79,7 @@ button{
 	background-color: #000;
 	margin-right: -25px;
 	border-radius: 10px;
+	background-color: #aaaaaa;
 }
 .dropdown ul li a{
 	color: #fff;
@@ -100,7 +103,7 @@ button{
 
 }
 .imgBannerx{
-    background-image: url(../images/eng.jpg);
+    background-image: url(../images/bh2.jpg);
 	background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 200px;

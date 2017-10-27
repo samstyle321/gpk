@@ -1,6 +1,8 @@
 body{
 	background-color: rgba(40,40,235,0.4);
 	color: #000;
+	background-color: #f1f1f1;
+
 }
 header img{
 	display: inline-block;
@@ -15,17 +17,19 @@ header h2{
 }
 header{
 	background-color: #eee;
-	background-image: url(../images/bghhh.jpg);
+	/*background-image: url(../images/bghhh.jpg);*/
 	background-repeat: no-repeat;
 	text-align: center;
 	width: 100%;
+	background-color:rgb(13, 192, 220);
 
 }
 .navbar-brand a{
-	color: #fff;
+	color: #000;
 }
 .navbar-brand a:hover{
 	color: #bbb;
+	color: #F36b32;
 }
 .dropdown-menu > li > a, .navbar-header .navbar-brand, .navbar-default .navbar-nav > li > a {
     font-size: 1.3em;
@@ -41,10 +45,14 @@ header{
 	font-size: 25px;
 }*/
 .navbar-default .navbar-nav > li > a{
-	color: #fff;
+	color:#000;
 }
 .navbar-default .navbar-nav > li > a:hover{
 	color: #bbb;
+	color: #F36b32;
+}
+.mainNav{
+	position: top-fixed;
 }
 /*.nav li{
 	border-right: 1px solid #bbb;
@@ -53,6 +61,7 @@ header{
 	background-color: #000;
 	margin-right: -25px;
 	border-radius: 10px;
+	background-color: #aaaaaa;
 }
 .dropdown ul li a{
 	color: #fff;
@@ -60,14 +69,26 @@ header{
 }
 .navbar {
 	text-align: center;
-	background-color: #000;
+	background-color: #f1f1f1;
 }*/
 button{
 	color: #f00;
 }
 .links{
 	text-align: center;
+	background-color: rgb(13, 192, 220);
+	background-color: rgb(253, 189, 62);
 }
+.links a{
+	color: #fff;
+}
+.links a:hover{
+	color: rgb(13, 192, 220);
+	color: #000;
+
+}
+
+
 .collapsed{
 	color: #fff;
 }
@@ -124,10 +145,18 @@ Slider
 	font-size: 15px;
 	word-spacing: 1px;
 	letter-spacing: 1px;
-	border: 1px solid black;
+	border: 1px solid rgb(253, 189, 62);;*/
 	padding: 20px;
 	margin: 10px;
+	background-color: #F36b32;
+	color: #fff;
 
+
+}
+.introduction h3,.vision h3{
+	padding: 0 20px;}
+.introduction p,.vision p{
+	padding: 20px;
 }
 .vision{
 	margin-top: 70px;
