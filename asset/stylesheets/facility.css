@@ -15,3 +15,8 @@ p ul li{
 .other{
 	margin-left: 10px;
 }
+.addr{
+	border: 1px dashed gray;
+	text-align: center;
+	border-radius: 10%;
+}

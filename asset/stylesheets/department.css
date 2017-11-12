@@ -1,6 +1,8 @@
 body{
 	background-color: rgba(40,40,235,0.4);
+	background-color: rgba(186,147,202,0.4);
 	color: #000;
+	font-family: sans-serif;
 }
 header img{
 	display: inline-block;
@@ -32,8 +34,12 @@ header{
 	/*background-image: url(../images/bghhh.jpg);*/
 	background-repeat: no-repeat;
 	background-color:rgb(13, 192, 220);
+	background-color: rgba(173,185,228,1);
 	text-align: center;
 	width: 100%;
+}
+.navbar,header{
+	font-family: Josefin Slab;
 }
 .navbar-brand a{
 	color: #000;
@@ -93,6 +99,7 @@ button{
 }
 .imgBanner{
     background-image: url(../images/engg.jpg);
+    opacity: 0.5;
 	background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 200px;
@@ -102,6 +109,33 @@ button{
     margin-top: -20px;
 
 }
+.imgBannera{
+	background: url(../images/appl1.png);
+	opacity: 0.5;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.imgBannerc{
+	background: url(../images/cp1.jpg);
+	opacity: ;
+	background-size: 100% auto;
+}
+.imgBannerm{
+	background: url(../images/mec6.jpg);
+	opacity: 0.5;
+	background-size: cover;
+}
+.imgBannere{
+	background: url(../images/elec2.jpg);
+	opacity: 0.5;
+	background-size: cover;
+}
+.imgBannerec{
+	background: url(../images/electro2.jpg);
+	opacity: 0.5;
+	background-size: cover;
+}
+
 .imgBannerx{
     background-image: url(../images/bh2.jpg);
 	background-repeat: no-repeat;
@@ -182,6 +216,9 @@ footer{
 	text-align: center;
 	background-color: #55d;
 }
+.lis h3{
+	margin-left: 30px;
+}
 .table{
 	font-weight: 600;
 }
@@ -259,6 +296,9 @@ Anti-Ragging
 
 .other{
 	list-style-type: none;
+}
+.lis ul{
+list-style: none;
 }
 
 @media all and (max-width: 600px){

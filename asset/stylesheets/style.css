@@ -1,7 +1,15 @@
+.bop{
+	background-image: url(../data1/images/img_20171026_151233.jpg);
+}
+
+
+
 body{
-	background-color: rgba(40,40,235,0.4);
+	background-color: rgba(40,40,235,0.1);
 	color: #000;
 	background-color: #f1f1f1;
+	font-family: sans-serif;
+
 
 }
 header img{
@@ -21,8 +29,13 @@ header{
 	background-repeat: no-repeat;
 	text-align: center;
 	width: 100%;
-	background-color:rgb(13, 192, 220);
 
+	background-color:rgb(13, 192, 220);
+	background-color: rgba(173,185,228,1);
+
+}
+.navbar,header{
+	font-family: Josefin Slab;
 }
 .navbar-brand a{
 	color: #000;
@@ -182,6 +195,9 @@ footer{
 	text-align: center;
 	background-color: #55d;
 }
+.lis h3{
+	margin-left: 30px;
+}
 .counter,small{
 	display: inline-block;
 	padding: 10px;
@@ -205,3 +221,5 @@ header img{
 	height: 160px;
 }
 }
+
+
