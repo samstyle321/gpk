@@ -15,6 +15,7 @@
 	<script src="https://use.fontawesome.com/095466b30a.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+
 <body>
 
 <div class="bop">	
@@ -78,7 +79,9 @@
                 </ul>
             </div>
         
+	
 	<!-- /.container-fluid -->
+	
     </nav>
     	
 

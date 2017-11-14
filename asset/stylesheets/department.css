@@ -37,6 +37,7 @@ header{
 	background-color: rgba(173,185,228,1);
 	text-align: center;
 	width: 100%;
+	background-color: rgba(27,77,218,1);
 }
 .navbar,header{
 	font-family: Josefin Slab;
@@ -63,12 +64,13 @@ header{
 	color: #000;
 }
 .navbar-default .navbar-nav > li > a:hover{
-	color: #bbb;
+	color: #fff;
 }
 .navbar {
 	text-align: center;
 	background-color: #000;
 	background-color: #f1f1f1;
+	background-color: rgba(165,172,173,1);
 }
 button{
 	color: #f00;
@@ -97,6 +99,9 @@ button{
 .imgBannerec{
 	background-image: url(../images/engg.jpg);
 }
+.imgBannereanti{
+	background-image: url(../images/antirag.jpg);
+}
 .imgBanner{
     background-image: url(../images/engg.jpg);
     opacity: 0.5;
@@ -108,6 +113,12 @@ button{
     width: 100%;
     margin-top: -20px;
 
+}
+.imgBannereanti{
+	background-image: url(../images/antirag.jpg);
+}
+.imgBannerachi{
+	background-image: url(../images/ach2.jpg);
 }
 .imgBannera{
 	background: url(../images/appl1.png);

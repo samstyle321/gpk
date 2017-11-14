@@ -31,8 +31,11 @@ header{
 	width: 100%;
 
 	background-color:rgb(13, 192, 220);
-	background-color: rgba(173,185,228,1);
+	background-color: rgba(27,77,218,1);
 
+}
+.wow{
+	width: 100%;
 }
 .navbar,header{
 	font-family: Josefin Slab;
@@ -61,8 +64,8 @@ header{
 	color:#000;
 }
 .navbar-default .navbar-nav > li > a:hover{
-	color: #bbb;
-	color: #F36b32;
+	color: #fff;
+	
 }
 .mainNav{
 	position: top-fixed;
@@ -83,6 +86,7 @@ header{
 .navbar {
 	text-align: center;
 	background-color: #f1f1f1;
+	background-color: rgba(165,172,173,1);
 }*/
 button{
 	color: #f00;
